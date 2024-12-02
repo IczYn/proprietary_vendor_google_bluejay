@@ -440,7 +440,6 @@ PRODUCT_PACKAGES += \
     libmediaadaptor \
     com.google.edgetpu_app_service-V3-ndk \
     com.google.edgetpu_vendor_service-V2-ndk \
-    libhbmsvmanager_jni \
     VZWAPNLib \
     AppDirectedSMSService \
     CarrierSettings_signed_47.0.602606545 \
@@ -465,7 +464,6 @@ PRODUCT_PACKAGES += \
     EuiccGoogleOverlay \
     EuiccSupportPixel \
     EuiccSupportPixelPermissions \
-    HbmSVManager \
     MyVerizonServices \
     OemRilService \
     RilConfigService \
