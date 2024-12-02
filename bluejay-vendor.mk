@@ -669,7 +669,12 @@ PRODUCT_COPY_FILES += \
     vendor/google/bluejay/proprietary/vendor/etc/touchflow.pb:$(TARGET_COPY_OUT_VENDOR)/etc/touchflow.pb \
     vendor/google/bluejay/proprietary/vendor/etc/twoshay_config.json:$(TARGET_COPY_OUT_VENDOR)/etc/twoshay_config.json \
     vendor/google/bluejay/proprietary/vendor/firmware/SensorHub.patch:$(TARGET_COPY_OUT_VENDOR)/firmware/SensorHub.patch \
+    vendor/google/bluejay/proprietary/vendor/firmware/R-cs35l41-dsp1-spk-cali.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/R-cs35l41-dsp1-spk-cali.bin \
+    vendor/google/bluejay/proprietary/vendor/firmware/R-cs35l41-dsp1-spk-diag.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/R-cs35l41-dsp1-spk-diag.bin \
+    vendor/google/bluejay/proprietary/vendor/firmware/R-cs35l41-dsp1-spk-prot.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/R-cs35l41-dsp1-spk-prot.bin \
     vendor/google/bluejay/proprietary/vendor/firmware/aoc.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aoc.bin \
+    vendor/google/bluejay/proprietary/vendor/firmware/bcmdhd.cal_PROTO1.0:$(TARGET_COPY_OUT_VENDOR)/firmware/bcmdhd.cal_PROTO1.0 \
+    vendor/google/bluejay/proprietary/vendor/firmware/bcmdhd.cal_PROTO1.1:$(TARGET_COPY_OUT_VENDOR)/firmware/bcmdhd.cal_PROTO1.1 \
     vendor/google/bluejay/proprietary/vendor/firmware/bcmdhd.cal:$(TARGET_COPY_OUT_VENDOR)/firmware/bcmdhd.cal \
     vendor/google/bluejay/proprietary/vendor/firmware/bcmdhd.cal_ES19:$(TARGET_COPY_OUT_VENDOR)/firmware/bcmdhd.cal_ES19 \
     vendor/google/bluejay/proprietary/vendor/firmware/bcmdhd.cal_EU:$(TARGET_COPY_OUT_VENDOR)/firmware/bcmdhd.cal_EU \
@@ -1544,6 +1549,12 @@ PRODUCT_COPY_FILES += \
     vendor/google/bluejay/proprietary/vendor/firmware/carrierconfig/manifests/fa3621b38adeb4224b4f74048a7c7ab7443f0f14:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/fa3621b38adeb4224b4f74048a7c7ab7443f0f14 \
     vendor/google/bluejay/proprietary/vendor/firmware/carrierconfig/manifests/fdc3d31cd319a1d2dd7bc8f9e81cab0225d86a1c:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/fdc3d31cd319a1d2dd7bc8f9e81cab0225d86a1c \
     vendor/google/bluejay/proprietary/vendor/firmware/carrierconfig/release-label:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/release-label \
+    vendor/google/bluejay/proprietary/vendor/firmware/cs35l41-dsp1-spk-diag.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/cs35l41-dsp1-spk-diag.bin \
+    vendor/google/bluejay/proprietary/vendor/firmware/cs35l41-dsp1-spk-diag.wmfw:$(TARGET_COPY_OUT_VENDOR)/firmware/cs35l41-dsp1-spk-diag.wmfw \
+    vendor/google/bluejay/proprietary/vendor/firmware/cs35l41-dsp1-spk-prot.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/cs35l41-dsp1-spk-prot.bin \
+    vendor/google/bluejay/proprietary/vendor/firmware/cs35l41-dsp1-spk-prot.wmfw:$(TARGET_COPY_OUT_VENDOR)/firmware/cs35l41-dsp1-spk-prot.wmfw \
+    vendor/google/bluejay/proprietary/vendor/firmware/cs35l41-dsp1-spk-cali.wmfw:$(TARGET_COPY_OUT_VENDOR)/firmware/cs35l41-dsp1-spk-cali.wmfw \
+    vendor/google/bluejay/proprietary/vendor/firmware/cs35l41-dsp1-spk-cali.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/cs35l41-dsp1-spk-cali.bin \
     vendor/google/bluejay/proprietary/vendor/firmware/cs40l20.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/cs40l20.bin \
     vendor/google/bluejay/proprietary/vendor/firmware/cs40l25a_cal.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/cs40l25a_cal.bin \
     vendor/google/bluejay/proprietary/vendor/firmware/cs40l25a_cal.wmfw:$(TARGET_COPY_OUT_VENDOR)/firmware/cs40l25a_cal.wmfw \
